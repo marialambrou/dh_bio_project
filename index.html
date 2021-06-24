@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Project</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="img/Bio Project-logo.jpg">
+    <script src="https://kit.fontawesome.com/cfbc2ebf37.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <script src="index.js"></script>
+        <div id="e-shop" class="tabcontent">
+            <h1>e-shop</h1>
+            <p>Τρόφιμα</p>
+            <p>Περιποίηση</p>
+            <p>Είδη σπιτιού</p>
+            <p>Ειδικές προσφορές</p>
+          </div>
+          
+          <div id="Diet" class="tabcontent">
+            <h1>Ειδική Διατροφή</h1>
+            <p>Χορτοφαγικά</p>
+            <p>Ωμοφαγικά</p>
+            <p>Χωρίς γλουτένη</p>
+            <p>Χωρίς λακτόζη</p>
+            <p>Κετογονικά</p>
+          </div>
+          
+          <div id="Sustainable" class="tabcontent">
+            <h1>Βιώσιμη κατανάλωση</h1>
+            <p>Τι είναι βιολογικό προϊόν;</p>
+            <p>Πώς πιστοποιείται ένα βιολογικό προϊόν;</p>
+            <p>Γιατί να αγοράσω οργανικά προϊόντα;</p>
+            <p>Τι μπορώ να αλλάξω στην καθημερινότητα μου;</p>
+          </div>
+          
+          <div id="Contact" class="tabcontent">
+            <h1>Επικοινωνία</h1>
+            <p>Ρωτήστε τον ειδικό διατροφολόγο μας</p>
+            <p>Στείλτε μας e-mail</p>
+            <p>Ακολουθήστε μας στα social media</p>
+          </div>
+          
+          <button class="tablink" onclick="openCity('e-shop', this, 'lightgreen')" id="defaultOpen">e-shop</button>
+          <button class="tablink" onclick="openCity('Diet', this, 'lightpink')">Ειδική Διατροφή</button>
+          <button class="tablink" onclick="openCity('Sustainable', this, 'lightseagreen')">Βιώσιμη κατανάλωση</button>
+          <button class="tablink" onclick="openCity('Contact', this, 'lavender')">Επικοινωνία</button>
+        
+          <img src="img/bio project.jpg" alt="BioProject" width="100%" height="auto">
+
+          <div class="search">
+          <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form></div>
+
+          <h3>ΔΗΜΟΦΙΛΗ ΠΡΟΪΟΝΤΑ:</h3>
+          <div class="row">
+            <div class="column">
+            <div class="card">
+              <img src="img/beans-coffee.jpg" alt="Coffee" style="width:100%">
+              <h1>Organic Coffee</h1>
+              <p class="price">€3.00</p>
+              <p>Ο καλύτερος καφές, φυσικά!</p>
+              <p><button>Add to Cart</button></p></div></div>
+              <div class="column">
+              <div class="card">
+              <img src="img/boxed-wate.jpg" alt="Water" style="width:100%">
+              <h1>Fresh Water in paper box</h1>
+              <p class="price">€1.00</p>
+              <p>Το νερό δεν χρειάζεται να είναι σε πλαστικό.</p>
+              <p><button>Add to Cart</button></p></div></div>
+              <div class="column">
+              <div class="card">
+              <img src="img/soap.jpg" alt="Soap" style="width:100%">
+              <h1>Nature's best cleanser</h1>
+              <p class="price">€4.00</p>
+              <p>Από τη φύση, για τον άνθρωπο και το περιβάλλον.</p>
+              <p><button>Add to Cart</button></p></div></div>
+              <div class="coupon">
+                <div class="container">
+                <h3>Η προσφορά του μήνα:</h3>
+                </div>
+                <img src="img/juice.jpg" alt="Avatar" style="width: 100%">
+                <div class="container" style="background-color:white">
+                <h2><b>ΚΕΡΔΙΣΤΕ 50% </b></h2>
+                <p>Cactus Organic: η υγιεινή απόλαυση του καλοκαιριού!</p>
+                </div>
+                <div class="container">
+                 <p>Κωδικός έκπτωσης: <span class="promo">BioProject21</span></p>
+                <p class="expire">Προσφορά έως: 30 Ιουλίου 2021</p>
+            </div>
+            </div>
+            </div>
+        
+        <h3>ΕΙΠΑΝ ΓΙΑ ΕΜΑΣ:</h3>
+        <div class="container">
+          <i class="fas fa-user"></i>
+          <p>Νίκος Γεωργίου.</p>
+          <p>Ενημερωτικό και χρήσιμο site. Κάποιες προσφορές κάνουν τη διαφορά! </p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        
+        <div class="container">
+          <i class="fas fa-user"></i>
+          <p>Ιωάννα Παναγιωτίδου.</p>
+          <p>Οι συμβουλές της διατροφολόγου ήταν οι καλύτερες! Μην διστάσετε να την ρωτήσετε για όποια απορία.</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        </div>
+        
+       
+        
+
+         <div><form action="action_page.php">
+         <div class="Newsletter">
+             <h4>Εγγραφείτε στο Newsletter μας</h4>
+             <p>Ενημερωθείτε για όλα τα τελευταία νέα και τις προσφορές μας!</p>
+          </div>
+          <div class="Newsletter" style="background-color:white">
+           <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+            <div class="container">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+       
+    <div class="footer">        
+    <div class="copyright">
+    copyright, Bio Project 2021, All rights reserved.
+    </div> 
+    <div class="social">
+        <p>Ακολουθήστε μας:</p>
+    <div class="social-icon">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram-square"></i>
+    </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
